@@ -1,0 +1,12 @@
+1. Write a Kyverno policy that limits the amount of containers that can be in a single Pod.
+The policy should check all pods to ensure that they have no more than two containers. 
+You should show a case where a resource is blocked due to policy violation and another 
+case where a resource is successfully created.
+
+2. Use the policy you created in the 1st step to write a Kyverno policy exception that grants an 
+exception to a Pod or Deployment named important-app which will be created in the delta namespace.
+You should show a case where a resource is successfully created although it violates the policy.
+
+
+You should provide a link to a github repository that have all the policies and resources you created. 
+You can document the work done in a README.md
