@@ -1,0 +1,29 @@
+apiVersion: kyverno.io/v1
+kind: ClusterPolicy
+metadata:
+  name: validate     
+spec:
+  validationFailureAction: audit
+  background: false
+  rules:
+  - name: limit-containers-per-pod
+    match:
+      any:
+      - resources:
+          kinds:
+          - Pod
+    preconditions:
+      all:
+      - key: "{{request.operation || 'BACKGROUND'}}"
+        operator: AnyIn
+        value: 
+        - CREATE
+        - UPDATE
+    validate:
+      message: "Pods can only have a maximum of 2 containers."
+      deny:
+        conditions:
+          any:
+          - key: "{{request.object.spec.containers[] | length(@)}}"
+            operator: GreaterThan
+            value: "2"
