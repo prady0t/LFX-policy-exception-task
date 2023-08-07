@@ -1,10 +1,10 @@
 apiVersion: kyverno.io/v1
 kind: ClusterPolicy
 metadata:
-  name: validate     
+  name: limit-containers    
 spec:
-  validationFailureAction: audit
-  background: false
+  validationFailureAction: Enforce
+  background: true
   rules:
   - name: limit-containers-per-pod
     match:
