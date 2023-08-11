@@ -1,4 +1,5 @@
-![image](https://github.com/prady0t/LFX-policy-exception-task/assets/99216956/f19c1ea5-fa66-4a18-95c0-610523c37f5a)
+![image](https://github.com/prady0t/LFX-policy-exception-task/assets/99216956/58bfa977-00b5-4b44-9568-8e64b84710dd)
+
 
 # LFX-policy-exception-task
 
