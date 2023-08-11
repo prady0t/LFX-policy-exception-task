@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: three-container-pod
+  name: important-app
 spec:
   containers:
     - name: main-app
-      image: nginx
+      image: ngin
       ports:
         - containerPort: 8080
       resources:
