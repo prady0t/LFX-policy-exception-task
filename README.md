@@ -1,5 +1,9 @@
+![image](https://github.com/prady0t/LFX-policy-exception-task/assets/99216956/f19c1ea5-fa66-4a18-95c0-610523c37f5a)
+
 # LFX-policy-exception-task
+
 # About
+
 
 ***1)*** `limit-containers.yaml`: contains policy for limiting containers per pod upto 2 only. 
 
