@@ -16,4 +16,4 @@ spec:
         namespaces:
         - delta
         names:
-        - three-container-pod*
+        - important-app*
