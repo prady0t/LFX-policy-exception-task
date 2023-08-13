@@ -64,6 +64,6 @@ Now applying `should-fail.yaml` again:
 
 <img width="1424" alt="Screenshot 2023-08-11 at 9 03 29 PM" src="https://github.com/prady0t/LFX-policy-exception-task/assets/99216956/7f309a99-aa0d-43c5-8dda-86c95bd89796">
 
-As we can see, `should-fail.yam` was allowed to be created as an exception but only in the `delta` namespace.
+As we can see, `should-fail.yaml` was allowed to be created as an exception but only in the `delta` namespace.
 
 
